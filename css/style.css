@@ -1,0 +1,258 @@
+*,
+html {
+    padding: 0;
+    margin: 0;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+
+}
+
+body {
+    font-family: 'ubuntu', sans-serif;
+
+}
+
+/* header */
+.header {
+    width: 100%;
+    height: 500px;
+    /* background-image: url('assets/pp.jpg'); */
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+
+.navbar {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.navbar .brand {
+    font-size: 40px;
+    color: white;
+    margin-inline-start: 30px;
+    font-weight: 800;
+    font-style: italic;
+
+}
+
+.nama {
+    color: white;
+    padding: 10px;
+}
+
+
+.navbar ul {
+    display: flex;
+    margin-inline-end: 10px;
+}
+
+.navbar ul li {
+    list-style: none;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    /* color: white; */
+    margin: 10px;
+    font-size: larger;
+}
+
+.gambar {
+    width: 100%;
+    height: 400px;
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.herotext {
+    margin-top: 45px;
+    padding: 40px;
+    width: 600px;
+}
+
+.herotext h1 {
+    font-size: 40px;
+    color: white;
+}
+
+.herotext p {
+    font-size: 18px;
+    color: white;
+    text-align: justify;
+}
+
+.img img {
+    width: 400px;
+    height: 400px;
+
+}
+
+/* header */
+.carimobil {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 800px;
+    height: 200px;
+    margin: 0 auto;
+    background-color: white;
+    position: relative;
+    top: 400px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 5px -1px black;
+    z-index: 1;
+    padding: 5px;
+
+}
+
+select {
+    width: 200px;
+    padding: 10px;
+    font-size: 16px;
+    color: #333;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 10px;
+}
+
+option {
+    padding: 10px;
+    font-size: 16px;
+}
+
+input[type="date"] {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="button"] {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 80px;
+}
+
+td {
+    padding: 5px;
+}
+
+
+
+
+.carousel {
+    width: 700px;
+    height: 300px;
+    margin: 0 auto;
+}
+
+#carouselExampleAutoplaying {
+    margin-top: 450px;
+    width: 700px;
+    margin-inline: auto;
+    border-radius: 30px;
+
+}
+
+.carousel-item {
+    width: 700px;
+    border-radius: 15px;
+
+}
+
+/* footer */
+.footer {
+    width: 100%;
+    /* height: 100px; */
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer p {
+    padding: 20px;
+    width: 400px;
+    color: white;
+    text-align: justify;
+}
+
+.login {
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 90px;
+    font-family: Arial, sans-serif;
+    text-decoration: none;
+    margin: 20px;
+    height: 45px;
+}
+
+.pesan {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 90px;
+    font-family: Arial, sans-serif;
+    text-decoration: none;
+    height: 45px;
+}
+
+.pesan:hover {
+    background-color: white;
+    border: 1px black solid;
+    color: black;
+    transition: 0.3s all ease-in-out;
+}
+
+.text {
+    /* background-color: aqua; */
+    margin: 0;
+}
+
+.text-container {
+    padding-block: 10px;
+    /* background-color: aquamarine; */
+}
+
+
+.login:hover {
+    background-color: black;
+    border: 1px white solid;
+    color: white;
+    transition: 0.3s all ease-in-out;
+}
+
+.container {
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin-top: 100px;
+    height: 800px;
+    overflow: scroll;
+}
+.container::-webkit-scrollbar{
+    display: none;
+}
